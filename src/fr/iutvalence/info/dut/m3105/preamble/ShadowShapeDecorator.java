@@ -16,7 +16,6 @@ public class ShadowShapeDecorator implements Shape
 	@Override
 	public void draw(Position position)
 	{
-		
 		this.shape.draw(position);
 		System.out.print(" ; with shadow (angle= "+angle+" | density = "+density+")");	
 	}
