@@ -15,7 +15,7 @@ public class Rectangle implements Shape
 	@Override
 	public void draw(Position position)
 	{
-		System.out.println("Rectangle drawn at "+position+" xSize= "+this.xSize+" ySize= "+this.ySize);	
+		System.out.print("\nRectangle drawn at "+position+" xSize= "+this.xSize+" ySize= "+this.ySize);	
 	}
 	
 	

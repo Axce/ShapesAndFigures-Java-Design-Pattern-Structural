@@ -12,7 +12,7 @@ public class Circle implements Shape
 	@Override
 	public void draw(Position position)
 	{
-		System.out.println("Circle drawn at "+position+" radius= "+this.radius);
+		System.out.print("\nCircle drawn at "+position+" radius= "+this.radius);
 	}
 	
 }
